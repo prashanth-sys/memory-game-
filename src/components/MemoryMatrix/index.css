@@ -1,0 +1,297 @@
+.memory-matrix-container {
+  background-color: #1a202c;
+
+  background-size: cover;
+
+  height: 110vh;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.game-heading {
+  font-family: 'Bree serif';
+
+  text-align: center;
+
+  padding-top: 7%;
+
+  font-weight: 500;
+
+  font-size: 38px;
+}
+
+.level-container {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 376px;
+
+  margin-top: 20px;
+}
+
+.level {
+  font-family: 'Bree serif';
+
+  font-size: 19px;
+
+  text-align: center;
+}
+
+.cells-card {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 90%;
+  height: fit-content;
+  max-height: 90%;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 458px;
+  height: 458px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #cbd5e1;
+  border-width: 0px;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+.highlight.button {
+  background-color: rgb(226, 226, 14);
+}
+
+.game-rules-container {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 9px;
+
+  margin-left: -50%; /* Shift left by 50% to center align */
+
+  margin-right: -50%; /* Shift right by 50% to center align */
+
+  width: 200%;
+}
+
+.game-back-button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.rules-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  font-family: 'Bree serif';
+  font-size: 17px;
+  margin-right: 10%;
+}
+
+.clicked {
+  background-color: lightskyblue;
+}
+
+.not-clicked {
+  background-color: red;
+}
+
+.result-container {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.emoji {
+  color: yellow;
+
+  font-size: 35px;
+}
+
+.result-emojis {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 15%;
+}
+
+.emoji-levels {
+  width: 40px;
+
+  margin-right: 49px;
+}
+
+.hr {
+  height: 20px;
+
+  width: 718px;
+
+  top: 367px;
+
+  left: 360px;
+
+  border-radius: 20.5px;
+
+  background-color: #467aff;
+
+  border-width: 0px;
+
+  margin-top: 25px;
+}
+
+.Congratulations {
+  font-family: 'Bree serif';
+
+  font-weight: 400;
+
+  size: 48px;
+
+  line-height: 64px;
+
+  text-align: center;
+}
+
+.level-heading {
+  font-family: 'Bree serif';
+
+  font-weight: 400;
+
+  size: 36px;
+
+  line-height: 48px;
+
+  text-align: center;
+}
+
+.level-show {
+  display: flex;
+
+  margin-left: 15%;
+}
+
+.levels-at {
+  font-family: 'Bree serif';
+
+  margin-right: 149px;
+}
+.line {
+  height: 20px;
+
+  width: 718px;
+
+  top: 367px;
+
+  left: 360px;
+
+  border-radius: 20.5px;
+  border-width: 0px;
+
+  margin-top: 25px;
+}
+.list-cell {
+  list-style-type: none;
+}
+
+.matrix-home-page {
+  background-size: cover;
+  color: #ffffff;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.game-heading {
+  font-family: 'Bree serif';
+  text-align: center;
+  padding-top: 3%;
+  font-weight: 500;
+  font-size: 38px;
+}
+.home-image {
+  width: 20%;
+  align-self: center;
+}
+.home-rules {
+  font-family: 'Bree serif';
+  font-weight: 500;
+  margin-left: 10%;
+  font-size: 19px;
+}
+.rules-list-container {
+  font-family: 'Bree serif';
+  margin-left: 10%;
+  width: 50%;
+}
+.start-button {
+  width: 100px;
+  height: 39px;
+  background-color: #467aff;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10%;
+}
+.back {
+  font-family: 'Bree serif';
+  font-size: 15px;
+}
+.back-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  padding: 5px;
+}
+.icon {
+  padding: 5px;
+  font-size: 30px;
+}
+.back-button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+}
+.cell-list {
+  list-style-type: none;
+}
+.cells-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
